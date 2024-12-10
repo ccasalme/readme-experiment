@@ -11,6 +11,7 @@ inquirer
     // If you are on Windows, you will be prompted to choose an editor or download a new editor.
         {
       type: 'input',
+      //Title of the Project
       name: 'title',
       message: 'Project title: (Required)',
       validate: nameInput => {
@@ -24,6 +25,13 @@ inquirer
       }},
       {
       type: 'editor',
+      //Description of the Project
+      //Provide a short description explaining the what, why, and how of your project. Use the following questions to guide your writing:
+      //What was your motivation?
+      //Why did you build this project?
+      //What problem does it solve?
+      //What did you learn?
+      //What makes your project stand out?
       name: 'description',
       message: 'Project description: (Required)',
       validate: nameInput => {
@@ -36,6 +44,9 @@ inquirer
       }},
       {
       type: 'editor',
+      //Installation instructions
+      //What are the steps required to install your project? 
+      //Provide a step-by-step description of how to get the development environment running.
       name: 'installation',
       message: 'Installation instructions: (Required)',
       validate: nameInput => {
@@ -48,6 +59,8 @@ inquirer
       }},
       {
       type: 'editor',
+      //Usage information
+      //Provide instructions and examples for use.
       name: 'usage',
       message: 'Usage information: (Required)',
       validate: nameInput => {
@@ -60,6 +73,7 @@ inquirer
       }},
       {
         type: 'input',
+        //Provide file paths for screenshots for usage if applicable
         name: 'screenshots',
         message: 'Provide file paths for screenshots (separate with commas):',
         filter: (input) => {
@@ -76,6 +90,10 @@ inquirer
       },
       {
       type: 'editor',
+      //Contribution guidelines
+      //List your collaborators, if any, with links to their GitHub profiles.
+      //If you used any third-party assets that require attribution
+      //List the creators with links to their primary web presence in this section.
       name: 'contributing',
       message: 'Contribution guidelines: (Required)',
       validate: nameInput => {
@@ -89,7 +107,8 @@ inquirer
       {
       type: 'editor',
       name: 'tests',
-      message: 'Test instructions: (Required)',
+      //Test instructions
+      message: 'Test instructions: (optional)',
       validate: nameInput => {
         if (nameInput) {
           return true;
@@ -100,6 +119,8 @@ inquirer
       }},
       {
       type: 'list',
+      //License
+      //The license you want to use for your project
       name: 'license',
       message: 'License: (Required)',
       choices: ['MIT', 'GNU', 'Apache', 'ISC', 'None'],
@@ -113,6 +134,8 @@ inquirer
       }},
       {
       type: 'editor',
+      //GitHub username(s)
+      //Provide your GitHub username
       name: 'username (Required)',
       message: 'GitHub username: (Required)',
       validate: nameInput => {

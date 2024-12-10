@@ -6,7 +6,6 @@
 test
 test
 
-
   
   ## Table of Contents
   - [Installation](#installation)
@@ -29,8 +28,6 @@ test
   
   ## Contributing
   test
-test
-test
 test
 
   
