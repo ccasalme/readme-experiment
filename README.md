@@ -41,10 +41,12 @@ SO THAT I can quickly create a professional README for a new project
 
 ## Walkthrough Video
 
-A walkthrough video that demonstrates the functionality of the README generator must be submitted and a link to the video should be included in your README file.
+A walkthrough video that demonstrates the functionality of the README generator must be submitted and a link to the video should be included in the README file.
 
 The walkthrough video must demonstrate how a user would invoke the application from the command line.
 
 The walkthrough video must demonstrate how a user would enter responses to all of the prompts in the application.
 
 The walkthrough video must demonstrate a generated README that matches the user input and has a functioning table of contents.
+
+Include any other screenshots I deem necessary to help someone who has never been introduced to my application understand the purpose and function of it (This is how to communicate to potential employers or other developers in the future what I built and why, and to show how it works).
