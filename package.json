@@ -1,0 +1,22 @@
+{
+  "name": "readme-experiment",
+  "version": "1.0.0",
+  "description": "generate a readme file project",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"test\""
+  },
+  "repository": {
+    "type": "module",
+    "url": "readme-experiment"
+  },
+  "keywords": [
+    "readme",
+    "generator"
+  ],
+  "author": "CCasalme",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^12.2.0"
+  }
+}
