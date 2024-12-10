@@ -72,7 +72,7 @@ inquirer
         }
       }},
       {
-        type: 'input',
+        type: 'editor', //Editor instead of input just in case the user wants to add more than one screenshot
         //Provide file paths for screenshots for usage if applicable
         name: 'screenshots',
         message: 'Provide file paths for screenshots (separate with commas):',
