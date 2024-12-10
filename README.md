@@ -1,5 +1,5 @@
  
-  # Readme.md Generator
+  # README.md Generator
   
   ## Description
 What: This project is to generate a Readme Fileâ€•prompting the User of what is needed for a Professional ReadMe.
