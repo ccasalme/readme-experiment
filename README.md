@@ -1,7 +1,7 @@
    # README.md Generator
   
   ## Description
-**What:** This project is to generate a Readme Fileâ€•prompting the User of what is needed for a Professional ReadMe.
+**What:** This project is to generate a Readme File, prompting the User of what is needed for a Professional ReadMe.
 
 **Why:** This will allow Users to quickly create a professional README for their new projects without having to remember everything they need to include.
 
