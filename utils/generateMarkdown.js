@@ -1,10 +1,9 @@
-function init() {
-    prompt(questions).then(answers => {
-      const response = `
-  # ${answers.title}
+function generateMarkdown(answersParam) {
+return ` 
+  # ${answersParam.title}
   
   ## Description
-  ${answers.description}
+  ${answersParam.description}
   
   ## Table of Contents
   - [Installation](#installation)
@@ -14,23 +13,19 @@ function init() {
   - [License](#license)
   
   ## Installation
-  ${answers.installation}
+  ${answersParam.installation}
   
   ## Usage
-  ${answers.usage}
+  ${answersParam.usage}
   
   ## Contributing
-  ${answers.contributing}
+  ${answersParam.contributing}
   
   ## Tests
-  ${answers.tests}
+  ${answersParam.tests}
   
   ## License
-  ${answers.license}
-      `; // Template literal end
-      writeToFile('README.md', response);
-    }); // Close the .then() method
-  } // Close the init function
-
-  // Function call to initialize program
-init();
+  ${answersParam.license}
+      `
+}
+export default generateMarkdown;
