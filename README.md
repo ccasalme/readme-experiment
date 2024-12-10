@@ -86,7 +86,7 @@ _
   ## Tests
 ### To Test it out:
 1. Simply type node index.js on your command line (or terminal)
-2. You can input anything. I even used Doge Coin Tester or simply just Test many times
+2. You can input anything as your answers for the prompts. I even used Doge Coin Tester or simply just Test many times
 3. If you are going to add another prompt, make sure you reference the generateMarkdown.js as well, or else whatever you added is just gunna float somewhere in the void (because how would the computer know that you want that in your Mardkdown too, right?)
 
 ### Note:
