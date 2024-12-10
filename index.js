@@ -1,60 +1,3 @@
-
-
-// // Import the required packages
-// const inquirer = require('inquirer');
-// inquirer.prompt([
-//     {
-//       type: 'input',
-//       name: 'test',
-//       message: 'What is your test input?',
-//     }
-//   ]).then(answers => {
-//     console.log('Input received:', answers.test);
-//   }).catch(error => {
-//     console.error('Error occurred:', error);
-//   });
-// const path = require('path');
-// const generateMarkdown = require('./utils/generateMarkdown');
-
-// // Questions array for the user input
-// const questions = [
-//   {
-//     type: 'input',
-//     name: 'title',
-//     message: 'What is the title of your project?',
-//   },
-//   {
-//     type: 'input',
-//     name: 'description',
-//     message: 'Provide a short description of your project:',
-//   },
-//   {
-//     type: 'input',
-//     name: 'installation',
-//     message: 'Describe the installation process:',
-//   },
-//   {
-//     type: 'input',
-//     name: 'usage',
-//     message: 'What is the usage of this project?',
-//   },
-//   {
-//     type: 'input',
-//     name: 'contributing',
-//     message: 'How can others contribute?',
-//   },
-//   {
-//     type: 'input',
-//     name: 'tests',
-//     message: 'How can users test the project?',
-//   },
-//   {
-//     type: 'input',
-//     name: 'license',
-//     message: 'Under what license is your project distributed?',
-//   }
-// ];
-
 // // Function to write README file
 // function writeToFile(fileName, data) {
 //     return fs.writeFileSync(path.join(process.cwd(), fileName), data);
@@ -124,15 +67,105 @@ inquirer
           console.log('Please enter your project name!');
           return false;
         }
+        
+      },
+      type: 'input',
+      name: 'description',
+      message: 'Project description: (Required)',
+      validate: nameInput => {
+        if (nameInput) {
+          return true;
+        } else {
+          console.log('Please enter your project description!');
+          return false;
+        }
+      },
+      type: 'input',
+      name: 'installation',
+      message: 'Installation instructions: (Required)',
+      validate: nameInput => {
+        if (nameInput) {
+          return true;
+        } else {
+          console.log('Please enter your installation instructions!');
+          return false;
+        }
+      },
+      type: 'input',
+      name: 'usage',
+      message: 'Usage information: (Required)',
+      validate: nameInput => {
+        if (nameInput) {
+          return true;
+        } else {
+          console.log('Please enter your usage information!');
+          return false;
+        }
+      },
+      type: 'input',
+      name: 'contribution',
+      message: 'Contribution guidelines: (Required)',
+      validate: nameInput => {
+        if (nameInput) {
+          return true;
+        } else {
+          console.log('Please enter your contribution guidelines!');
+          return false;
+        }
+      },
+      type: 'input',
+      name: 'test',
+      message: 'Test instructions: (Required)',
+      validate: nameInput => {
+        if (nameInput) {
+          return true;
+        } else {
+          console.log('Please enter your test instructions!');
+          return false;
+        }
+      },
+      type: 'list',
+      name: 'license',
+      message: 'License: (Required)',
+      choices: ['MIT', 'GNU', 'Apache', 'ISC', 'None'],
+      validate: nameInput => {
+        if (nameInput) {
+          return true;
+        } else {
+          console.log('Please select a license!');
+          return false;
+        }
+      },
+      type: 'input',
+      name: 'username',
+      message: 'GitHub username: (Required)',
+      validate: nameInput => {
+        if (nameInput) {
+          return true;
+        } else {
+          console.log('Please enter your GitHub username!');
+          return false;
+        }
+      },
+      type: 'input',
+      name: 'questions',
+      message: 'Questions: (Required)',
+      validate: nameInput => {
+        if (nameInput) {
+          return true;
+        } else {
+          console.log('Please enter your questions!');
+          return false;
+        }
       }
   }])
-  .then((answers) => {
-    // Use user feedback for... whatever!!
-  })
-  .catch((error) => {
-    if (error.isTtyError) {
-      // Prompt couldn't be rendered in the current environment
-    } else {
-      // Something else went wrong
-    }
-  });
+//   .then((answers) => {
+//     // Use user feedback for... whatever!!
+//   })
+//   .catch((error) => {
+//     if (error.isTtyError) {
+//       // Prompt couldn't be rendered in the current environment
+//     } else {
+//       // Something else went wrong
+//     }
+//   });
