@@ -5,6 +5,10 @@ import fs from 'fs';
 inquirer
   .prompt([
     /* Pass your questions in here */
+    // Editor instead of input for longer answers
+    // When prompted with the Editor option, press the Enter button, and a text editor will open up.
+    // If you are on Mac, you will be prompted to choose an editor.
+    // If you are on Windows, you will be prompted to choose an editor or download a new editor.
         {
       type: 'input',
       name: 'title',
@@ -19,7 +23,7 @@ inquirer
         
       }},
       {
-      type: 'input',
+      type: 'editor',
       name: 'description',
       message: 'Project description: (Required)',
       validate: nameInput => {
@@ -31,7 +35,7 @@ inquirer
         }
       }},
       {
-      type: 'input',
+      type: 'editor',
       name: 'installation',
       message: 'Installation instructions: (Required)',
       validate: nameInput => {
@@ -43,7 +47,7 @@ inquirer
         }
       }},
       {
-      type: 'input',
+      type: 'editor',
       name: 'usage',
       message: 'Usage information: (Required)',
       validate: nameInput => {
@@ -55,7 +59,7 @@ inquirer
         }
       }},
       {
-      type: 'input',
+      type: 'editor',
       name: 'contributing',
       message: 'Contribution guidelines: (Required)',
       validate: nameInput => {
@@ -67,7 +71,7 @@ inquirer
         }
       }},
       {
-      type: 'input',
+      type: 'editor',
       name: 'tests',
       message: 'Test instructions: (Required)',
       validate: nameInput => {
@@ -92,8 +96,8 @@ inquirer
         }
       }},
       {
-      type: 'input',
-      name: 'username',
+      type: 'editor',
+      name: 'username (Required)',
       message: 'GitHub username: (Required)',
       validate: nameInput => {
         if (nameInput) {
@@ -104,7 +108,8 @@ inquirer
         }
       }},
       {
-      type: 'input',
+        //If there are different, contributors, add them here
+      type: 'editor',
       name: 'questions',
       message: 'Questions: (Required)',
       validate: nameInput => {
