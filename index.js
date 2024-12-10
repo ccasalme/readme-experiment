@@ -59,6 +59,22 @@ inquirer
         }
       }},
       {
+        type: 'input',
+        name: 'screenshots',
+        message: 'Provide file paths for screenshots (separate with commas):',
+        filter: (input) => {
+          return input.split(',').map((path) => path.trim());
+        },
+        validate: (input) => {
+          if (input) {
+            return true;
+          } else {
+            console.log('Please provide at least one file path for your screenshots or leave blank.');
+            return false;
+          }
+        }
+      },
+      {
       type: 'editor',
       name: 'contributing',
       message: 'Contribution guidelines: (Required)',
