@@ -1,16 +1,14 @@
- 
-  # README.md Generator
+   # README.md Generator
   
   ## Description
-What: This project is to generate a Readme Fileâ€•prompting the User of what is needed for a Professional ReadMe.
+**What:** This project is to generate a Readme Fileâ€•prompting the User of what is needed for a Professional ReadMe.
 
-Why: This will allow Users to quickly create a professional README for their new projects without having to remember everything they need to include.
+**Why:** This will allow Users to quickly create a professional README for their new projects without having to remember everything they need to include.
 
-How: This application is invoked by using the following command: node index.js.
+**How:** This application is invoked by using the following command: node index.js.
 
-How was this project built: I modified a starter code to create a command-line application that dynamically generates a professional README.md file from a User's input by using the inquirer package.
+**How was this project built:** I modified a starter code to create a command-line application that dynamically generates a professional README.md file from a User's input by using the inquirer package.
 
-  
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
@@ -21,28 +19,23 @@ How was this project built: I modified a starter code to create a command-line a
   ## Installation
 
 ### Node.js Installation
-To get started, ensure that Node.js is installed on your computer. Open your command line and type node -v. If Node.js is installed, this will display the version number. If not, visit Node.js Official Website and download the LTS version.
+To get started, ensure that Node.js is installed on your computer. Open your command line and type node -v. If Node.js is installed, this will display the version number. If not, visit **Node.js Official Website and download the LTS version.**
 
-For Windows: Look for the section labeled Download for Windows (x64).
-For macOS: Look for the section labeled Download for macOS (x64).
-
+**For Windows:** Look for the section labeled Download for Windows (x64).
+**For macOS:** Look for the section labeled Download for macOS (x64).
 
 ### Cloning the Repository
-Once Node.js is set up, follow these steps to clone this repository:
-
+**Once Node.js is set up, follow these steps to clone this repository:**
 1. Click the green Code button on the repository page and copy the provided link.
 2. Open your preferred code editor and launch the terminal.
 3. Use the cd command in the terminal to navigate to the directory where you want to clone the repository.
 4. Finally, run the following command: git clone <repo-link>. Note to replace the <repo-link> with the link you copied earlier.
 
 ### Installing Inquirer
-This project requires the Inquirer npm package. Since inquirer isn't included with Node.js by default, follow these steps:
-
+This project requires the **Inquirer npm package**. Since inquirer isn't included with **Node.js** by default, follow these steps:
 1. Run npm init in your terminal to initialize npm in your project directory
 2. Navigate to the app.js file, then run the following command to install the Inquirer: npm install inquirer
 3. For additional information or documentation about inquirer and other npm packages, visit: https://www.npmjs.com/ and use the search bar to find the package you need.
-
-
   
   ## Usage
 ### Usage Instructions:
@@ -66,9 +59,7 @@ When you first clone the repository, your directory should match the folder stru
 
 ![Screenshot 2024-12-10 at 6 03 59 PM](https://github.com/user-attachments/assets/e9322663-45f6-4a7a-b0fb-9fef3cfcc93a)
 
-
 ### Committing and Pushing the README:
-
 **Once you're satisfied with the README file:**
 1. Add and commit the changes using the following commands: git add -A and then git commit -m "Add README file"
 2. Push the file to the repository with: git push origin main
@@ -78,7 +69,6 @@ Then c'est viola! Your README is now live in the repository!
 **Visual Walkthrough:**
 For a step by step demo of creating the README, watch the walkthrough video here: (upcoming)
 
-  
   ## Contributing
 ### My references:
 
