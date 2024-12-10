@@ -20,14 +20,14 @@ How was this project built: I modified a starter code to create a command-line a
   
   ## Installation
 
-Node.js Installation
+### Node.js Installation
 To get started, ensure that Node.js is installed on your computer. Open your command line and type node -v. If Node.js is installed, this will display the version number. If not, visit Node.js Official Website and download the LTS version.
 
 For Windows: Look for the section labeled Download for Windows (x64).
 For macOS: Look for the section labeled Download for macOS (x64).
 
 
-Cloning the Repository
+### Cloning the Repository
 Once Node.js is set up, follow these steps to clone this repository:
 
 1. Click the green Code button on the repository page and copy the provided link.
@@ -35,7 +35,7 @@ Once Node.js is set up, follow these steps to clone this repository:
 3. Use the cd command in the terminal to navigate to the directory where you want to clone the repository.
 4. Finally, run the following command: git clone <repo-link>. Note to replace the <repo-link> with the link you copied earlier.
 
-Installing Inquirer
+### Installing Inquirer
 This project requires the Inquirer npm package. Since inquirer isn't included with Node.js by default, follow these steps:
 
 1. Run npm init in your terminal to initialize npm in your project directory
@@ -45,11 +45,11 @@ This project requires the Inquirer npm package. Since inquirer isn't included wi
 
   
   ## Usage
-Usage Instructions:
+### Usage Instructions:
 
 When you first clone the repository, your directory should match the folder structure and files shown in the example below.
 
-Generating the README:
+### Generating the README:
 1. Use the cd command to navigate to the directory where the README-generator is located.
 2. On the terminal, type: node index This will start the program and prompt you with a series of questions. Don't worry if you are not too sure what to input! Check my comments to guide you for  what you need for each section.
 3. For each question:
@@ -58,9 +58,18 @@ Generating the README:
 4. After completing all questions, you'll see a message in the terminal: The file has been saved!
 5. Open the explorer tab in your code editor to find the newly generated README.md file. Make edits if needed.
 
-Committing and Pushing the README:
+![Screenshot 2024-12-10 at 6 03 13 PM](https://github.com/user-attachments/assets/b83e05f3-ea5c-422c-97ad-482aba8da083)
 
-Once you're satisfied with the README file:
+![Screenshot 2024-12-10 at 6 04 43 PM](https://github.com/user-attachments/assets/34ad13b7-ec67-46b5-b874-eab7d12329be)
+
+![Screenshot 2024-12-10 at 6 04 18 PM](https://github.com/user-attachments/assets/b776324f-678f-4e5a-bf15-40408afd3590)
+
+![Screenshot 2024-12-10 at 6 03 59 PM](https://github.com/user-attachments/assets/e9322663-45f6-4a7a-b0fb-9fef3cfcc93a)
+
+
+### Committing and Pushing the README:
+
+**Once you're satisfied with the README file:**
 1. Add and commit the changes using the following commands: git add -A and then git commit -m "Add README file"
 2. Push the file to the repository with: git push origin main
 
@@ -71,27 +80,29 @@ For a step by step demo of creating the README, watch the walkthrough video here
 
   
   ## Contributing
-My references:
+### My references:
 
-NPM Package: https://www.npmjs.com/
+**NPM Package:** https://www.npmjs.com/
 
-Professional README Guide: https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+**Professional README Guide:** https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 
-Video Submission Guide: https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide
+**Video Submission Guide:** https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide
 
 Inquirer.js: https://www.npmjs.com/package/inquirer#installation
 
-What is node.js YouTube tutorial: https://www.youtube.com/watch?v=TlB_eWDSMt4 (if you are new to node.js and would like a quick lesson of what it is)
-
+**What is node.js YouTube tutorial:** https://www.youtube.com/watch?v=TlB_eWDSMt4 _(if you are new to node.js and would like a quick lesson of what it is)
+_
 
   ## Tests
-To Test it out:
+### To Test it out:
 1. Simply type node index.js on your command line (or terminal)
 2. You can input anything. I even used Doge Coin Tester or simply just Test many times
 3. If you are going to add another prompt, make sure you reference the generateMarkdown.js as well, or else whatever you added is just gunna float somewhere in the void (because how would the computer know that you want that in your Mardkdown too, right?)
 
-Note:
-If you would like to modify the code and to add more prompts, simply add it in! P.S. don't forget to close a bracket and a comma like I did ahhaha.
+### Note:
+If you would like to modify the code and to add more prompts, simply add it in! 
+
+_P.S. don't forget to close a bracket and a comma like I did ahhaha._
 
   ## License
   MIT
