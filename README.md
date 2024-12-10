@@ -2,7 +2,7 @@
 
 ## Description
 
-The task is to modify a starter code to create a command-libe application that dynamically generates a
+The task is to modify a starter code to create a command-line application that dynamically generates a
 professional README.md file from a user's input using the inquirer package.
 
 This application should be invoked by using the following command: node index.js
