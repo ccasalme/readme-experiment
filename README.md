@@ -82,8 +82,7 @@ For a step by step demo of creating the README, watch the walkthrough video here
 
 **Inquirer.js:** https://www.npmjs.com/package/inquirer#installation
 
-**What is node.js YouTube tutorial:** https://www.youtube.com/watch?v=TlB_eWDSMt4 _(if you are new to node.js and would like a quick lesson of what it is)
-_
+**What is node.js YouTube tutorial:** https://www.youtube.com/watch?v=TlB_eWDSMt4 _(if you are new to node.js and would like a quick lesson of what it is)_
 
   ## Tests
 ### To Test it out:
