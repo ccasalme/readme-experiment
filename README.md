@@ -69,7 +69,7 @@ When you first clone the repository, your directory should match the folder stru
 Then c'est viola! Your README is now live in the repository!
 
 **Visual Walkthrough:**
-For a step by step demo of creating the README, watch the walkthrough video here: (upcoming)
+For a step by step demo of creating the README, watch the walkthrough video here: <iframe src="https://drive.google.com/file/d/1gXGMjFZVrBDpWmMTI00gHCpVMGla0c9h/preview" width="640" height="480"></iframe>
 
   ## Contributing
 ### My references:
