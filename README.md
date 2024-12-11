@@ -73,6 +73,7 @@ For a step by step demo of creating the README, watch the walkthrough video here
 
   ## Contributing
 ### My references:
+**Download Node here:** https://nodejs.org/en
 
 **NPM Package:** https://www.npmjs.com/
 
