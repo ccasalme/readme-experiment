@@ -31,6 +31,8 @@ To get started, ensure that Node.js is installed on your computer. Open your com
 3. Use the cd command in the terminal to navigate to the directory where you want to clone the repository.
 4. Finally, run the following command: git clone <repo-link>. Note to replace the <repo-link> with the link you copied earlier.
 
+_Note: you can also download this as a Zip File!_
+
 ### Installing Inquirer
 This project requires the **Inquirer npm package**. Since inquirer isn't included with **Node.js** by default, follow these steps:
 1. Run npm init in your terminal to initialize npm in your project directory
